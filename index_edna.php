@@ -29,7 +29,7 @@
 
 		while($page=mysql_fetch_array($result)){
 			print '<div class="article">';
-			print '<h2 class="article_link"><a href="/jason_blog/article.php?id=' . $page['id'] . '">' . $page['title'] . '</a></h2>';
+			print '<h2 class="article_link"><a href="/jason_blog/article_edna.php?id=' . $page['id'] . '">' . $page['title'] . '</a></h2>';
 			print '<h4>' . 'by ' . $page['author'] . '</h4>';
 			print '</div>';
 

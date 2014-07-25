@@ -20,10 +20,11 @@ p{
 	text-align: justify;
 }
 
-h1 {
+div h1 {
 	color: white;
 	font-family: 'Roboto Slab';
 	padding-left: 5px;
+
 }
 
 a {
@@ -37,16 +38,16 @@ a:hover{
 .header{
 	width:100%;
 	height: 50px;
-	background: -webkit-linear-gradient(left, red , white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, red, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, red, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, red , white); /* Standard syntax */
+	background: -webkit-linear-gradient(left, red , white); 
+    background: -o-linear-gradient(right, red, white); 
+    background: -moz-linear-gradient(right, red, white); 
+    background: linear-gradient(to right, red , white);
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
     margin-bottom: -40px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;;
 	
 }
 
