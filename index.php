@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="index.css">
 <title>Dev Camp Blog</title>
 	<body>
-		<h1 class="header">Jason's Dev Blog</h1>
+		<div class="header">
+			<h1>Jason's Dev Blog</h1>
+		</div>
 
 
 <?php 
@@ -18,8 +21,8 @@
 		$result = mysql_query('SELECT title, author, body, id FROM Articles ORDER BY id DESC');
 
 		while($page=mysql_fetch_array($result)){
-			print '<div>';
-			print '<h2><a href="article.php?id=' . $page['id'] . '">' . $page['title'] . '</a></h2>';
+			print '<div class="article">';
+			print '<h2 class="article_link"><a href="/jason_blog/article.php?id=' . $page['id'] . '">' . $page['title'] . '</a></h2>';
 			print '<h4>' . 'by ' . $page['author'] . '</h4>';
 			print '</div>';
 

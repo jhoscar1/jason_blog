@@ -23,7 +23,7 @@
   		print '<h1>' . $article['title'] . '</h1><br />';
   		print '<h4>' . $article['author'] . '</h4><br />';
   		print '<p>' . $article['body'] . '</p><br />';
-  		print '</div>'
+  		print '</div>';
 
 
   	}
