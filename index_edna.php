@@ -17,7 +17,7 @@
 
 
 <?php 
-	$connection = mysql_connect('23.92.19.55', 'root', 'test54321');
+	$connection = mysql_connect('23.92.19.55', 'root', '');
 	mysql_select_db('jason_blog');
 
 	if (!$connection) {
