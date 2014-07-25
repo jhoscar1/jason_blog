@@ -52,10 +52,11 @@ a:hover{
 
 .article {
 	box-shadow: 5px 5px 5px black;
-	margin: 200px 10px 0px 10px;
+	margin: 150px 10px 0px 10px;
 	display: inline-block;
 	background-color: #A7A7B3;
 	width:220px;
+	height: 160px;
 	vertical-align: top;
 
 }
