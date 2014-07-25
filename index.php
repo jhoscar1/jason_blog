@@ -3,7 +3,8 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 <title>Dev Camp Blog</title>
 	<body>
-		<h1>Jason's Dev Blog</h1>
+		<h1 class="header">Jason's Dev Blog</h1>
+
 
 <?php 
 	$connection = mysql_connect('127.0.0.1', 'root', '');
