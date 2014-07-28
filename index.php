@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="index.css">
 <title>Dev Camp Blog</title>
 	<body>
-		<div class="header">
-			<h1>Jason's Dev Blog</h1>
+		<div class="container">
+			<div class="header">
+				<h1>Jason's Dev Blog</h1>
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="/jason_blog">Home</a></li>
+					<li>About</li>
+					<li>Projects</li>
+					<li>Submit Projects</li>
+				</ul>
+			</div>
 		</div>
-		<div class="navbar">
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Projects</li>
-			</ul>
 
-
+		<div class="jumbo">
+		</div>
 
 <?php 
 	$connection = mysql_connect('23.92.19.55', 'root', '');
