@@ -17,7 +17,7 @@
 
 
 <?php 
-	$connection = mysql_connect('127.0.0.1', 'root', '');
+	$connection = mysql_connect('23.92.19.55', 'root', '');
 	mysql_select_db('jason_blog');
 
 	if (!$connection) {
@@ -29,7 +29,7 @@
 
 		while($page=mysql_fetch_array($result)){
 			print '<div class="article">';
-			print '<h2 class="article_link"><a href="/jason_blog/article.php?id=' . $page['id'] . '">' . $page['title'] . '</a></h2>';
+			print '<h2 class="article_link"><a href="article_edna.php?id=' . $page['id'] . '">' . $page['title'] . '</a></h2>';
 			print '<h4>' . 'by ' . $page['author'] . '</h4>';
 			print '</div>';
 
