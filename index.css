@@ -9,18 +9,9 @@ div{
 
 .container{
 	margin-top: 30px;
+	position: fixed;
+	top: 0;
 
-}
-
-.article_link{
-	padding-left: 6px;
-	padding-right: 6px;
-	text-align: center;
-}
-
-
-a:hover{
-	text-decoration: underline;
 }
 
 .header{
@@ -37,21 +28,8 @@ a:hover{
 	
 }
 
-.article {
-	box-shadow: 5px 5px 5px black;
-	margin: 140px 10px 0px 10px;
-	display: inline-block;
-	background-color: #A7A7B3;
-	width:220px;
-	height: 160px;
-	vertical-align: top;
-	font-family: 'Ostrich Sans';
-	font-size: 20px
+.navbar ul{
 
-}
-
-.article h4{
-	font-style: italic;
 }
 
 .navbar li{
@@ -62,7 +40,7 @@ a:hover{
 	color: white;
 	position: relative;
 	left:250px;
-	top: -20px;
+	top: -36px;
 
 }
 
@@ -74,6 +52,40 @@ a:hover{
 	color: white;
 
 }
+
+.article_link{
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align: center;
+}
+
+
+a:hover{
+	text-decoration: underline;
+}
+
+.article {
+	box-shadow: 5px 5px 5px black;
+	margin: 140px 10px 0px 10px;
+	display: inline-block;
+	background-color: #A7A7B3;
+	width:220px;
+	height: 160px;
+	vertical-align: top;
+	font-family: 'Ostrich Sans';
+	font-size: 20px;
+
+}
+
+.article h2{
+	line-height: 25px;
+}
+
+.article h4{
+	font-style: italic;
+}
+
+
 
 h4{
 	padding-left: 6px;
